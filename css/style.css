@@ -58,6 +58,7 @@ p {
 
   margin-bottom: 50px;
 }
+
 .framefirstsecond p {
   font-size: 1.125rem;
   grid-column: 2/3;
@@ -111,21 +112,21 @@ p {
 
 }
 
-.abschnit{
+.abschnit {
   grid-column: 1;
   grid-row: 1;
   font-size: 1.125rem;
   text-align: start;
-  
+
 
 }
 
 .framelast {
-  
+
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(1, 1fr);
-  
+
   margin-bottom: 50px;
   margin-left: 20%;
 
@@ -135,42 +136,64 @@ p {
   grid-column: 1;
   grid-row: 1;
   font-size: 1.125rem;
-margin-top: 50px;
+  margin-top: 50px;
   text-align: start;
-  
+
 
 }
 
-.framelast h2{
+.framelast h2 {
   font-size: 2.4rem;
   font-size: 64px;
- 
+
   font-style: normal;
   font-weight: 500;
   line-height: normal;
 }
+.framelaste {
+  margin-top: 50px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+ height: 400px;
+
+}
+.framelaste h2 {
+  font-size: 2.4rem;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 500;
+  
+}
+
+.eighty{
+  
+  width: 80px;
+ 
+}
 
 
-.abschnit{
+.abschnit {
   grid-column: 1;
   grid-row: 1;
   font-size: 1.8rem;
   text-align: start;
-  
+
 
 }
-.color{
+
+.color {
   grid-column: 2;
   grid-row: 1;
   align-self: end;
 }
 
-.framelast h3{
+.framelast h3 {
   margin-top: 20px;
   grid-column: 2/3;
   grid-row: 1;
 
-  
+
 }
 
 
@@ -183,7 +206,7 @@ margin-top: 50px;
 
 .titleshoe h2 {
   font-size: 64px;
- 
+
   font-style: normal;
   font-weight: 500;
   line-height: normal;
