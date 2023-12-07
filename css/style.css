@@ -48,9 +48,27 @@ p {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(1, 1fr);
 
+  margin-bottom: 50px;
+}
+
+.framefirstsecond {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(1, 1fr);
 
   margin-bottom: 50px;
 }
+.framefirstsecond p {
+  font-size: 1.125rem;
+  grid-column: 2/3;
+  text-align: justify;
+  width: 82%;
+  line-height: 2.5rem;
+
+  align-self: center;
+}
+
+
 
 .framefirst p {
   font-size: 1.125rem;
@@ -94,6 +112,8 @@ p {
 
 
 
+
+
 .titleshoe {
   grid-column: 1;
   grid-row: 1;
@@ -112,9 +132,8 @@ p {
 
 .iphoneright {
   grid-column: 3;
-
-  align-self: end;
-  justify-self: end;
+  align-self: center;
+  justify-self: center;
 }
 
 .iphoneleft {
