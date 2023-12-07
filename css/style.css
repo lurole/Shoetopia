@@ -46,55 +46,78 @@ p {
 .framefirst {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  height: 50rem;
+  grid-template-rows: repeat(1, 1fr);
+
+
+  margin-bottom: 50px;
 }
 
 .framefirst p {
   font-size: 1.125rem;
+  grid-column: 2/3;
 
-  text-align: start;
-  width: 80%;
+  text-align: justify;
+  width: 82%;
   line-height: 2.5rem;
 
   align-self: center;
 }
 
+.logofirstframe {
+  width: 50rem;
+
+  height: 50rem;
+
+  grid-column: 2/3;
+  grid-row: 1 /3;
+}
+
+
 .frame {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  margin-bottom: 50px;
+  margin-left: 40px;
+
 }
 
 .frame p {
+  grid-column: 1;
+  grid-row: 1;
   font-size: 1.125rem;
-
+  margin-top: 25%;
   text-align: start;
   width: 80%;
   line-height: 2.5rem;
 }
 
-.logofirstframe {
-  width: 60rem;
 
-  height: 60rem;
 
-  grid-column: 2/4;
-  grid-row: 1 /3;
+.titleshoe {
+  grid-column: 1;
+  grid-row: 1;
+
 }
 
-.iphoneright {
-  margin-top: 9.375rem;
+.titleshoe h2 {
+  font-size: 64px;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
 
+
+
+.iphoneright {
   grid-column: 3;
-  grid-row: 3;
-  align-self: start;
-  justify-self: start;
+
+  align-self: end;
+  justify-self: end;
 }
 
 .iphoneleft {
   justify-self: center;
   align-self: center;
-}
-
-.logofirstframe {
-  width: 28.125rem;
 }
