@@ -48,7 +48,7 @@ p {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(1, 1fr);
 
-  margin-bottom: 50px;
+  margin-bottom: 120px;
 }
 
 .framefirstsecond {
@@ -64,7 +64,7 @@ p {
   text-align: justify;
   width: 82%;
   line-height: 2.5rem;
-
+  text-transform: lowercase;
   align-self: center;
 }
 
@@ -73,7 +73,7 @@ p {
 .framefirst p {
   font-size: 1.125rem;
   grid-column: 2/3;
-
+  text-transform: lowercase;
   text-align: justify;
   width: 82%;
   line-height: 2.5rem;
@@ -107,10 +107,71 @@ p {
   margin-top: 25%;
   text-align: start;
   width: 80%;
-  line-height: 2.5rem;
+  text-transform: lowercase;
+
+}
+
+.abschnit{
+  grid-column: 1;
+  grid-row: 1;
+  font-size: 1.125rem;
+  text-align: start;
+  
+
+}
+
+.framelast {
+  
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  
+  margin-bottom: 50px;
+  margin-left: 20%;
+
+}
+
+.framelast p {
+  grid-column: 1;
+  grid-row: 1;
+  font-size: 1.125rem;
+margin-top: 50px;
+  text-align: start;
+  
+
+}
+
+.framelast h2{
+  font-size: 2.4rem;
+  font-size: 64px;
+ 
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }
 
 
+.abschnit{
+  grid-column: 1;
+  grid-row: 1;
+  font-size: 1.8rem;
+  text-align: start;
+  
+
+}
+.color{
+  grid-column: 2;
+  grid-row: 1;
+  align-self: end;
+}
+
+.framelast h3{
+  margin-top: 20px;
+  grid-column: 2/3;
+  grid-row: 1;
+
+  
+}
 
 
 
@@ -122,7 +183,7 @@ p {
 
 .titleshoe h2 {
   font-size: 64px;
-  font-size: 64px;
+ 
   font-style: normal;
   font-weight: 500;
   line-height: normal;
