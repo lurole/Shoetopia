@@ -37,6 +37,10 @@ body {
   margin-left: auto;
 }
 
+.navbar p:hover{
+  color: orange;
+}
+
 p {
   font-size: 0.625rem;
 
@@ -98,7 +102,7 @@ p {
   grid-template-rows: repeat(1, 1fr);
   margin-bottom: 50px;
   margin-left: 40px;
-
+  height: 100%;
 }
 
 .frame p {
@@ -111,6 +115,8 @@ p {
   text-transform: lowercase;
 
 }
+
+
 
 .abschnit {
   grid-column: 1;
@@ -164,6 +170,22 @@ p {
   font-style: normal;
   font-weight: 500;
   
+}
+
+.framelaste h2:hover{
+  animation: change-color 3s;
+ 
+}
+
+
+
+@keyframes change-color {
+  from{
+    color: black;
+  }
+  to{
+    color: orange;
+  }
 }
 
 .eighty{
